@@ -1,0 +1,23 @@
+body {
+  background-color: aquamarine;
+}
+
+img {
+  width: 250px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images>* {
+  background-color: cadetblue;
+  flex-wrap: wrap;
+  padding: .3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
