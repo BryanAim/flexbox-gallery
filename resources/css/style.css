@@ -25,3 +25,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
+
+button {
+  font-size: larger;
+}
