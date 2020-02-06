@@ -29,3 +29,7 @@ img {
 button {
   font-size: larger;
 }
+
+button:hover {
+  color: red;
+}
